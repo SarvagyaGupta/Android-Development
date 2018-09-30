@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:gravity="top|center"
+    tools:context=".FillInWordsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill in the words to\ncomplete the story!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="15sp" />
+
+    <TextView
+        android:id="@+id/words_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="... word(s) left"
+        android:textSize="17sp"
+        android:layout_marginBottom="5sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/user_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter the word here."
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak"
+            android:onClick="speakWord" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_weight="0"
+            android:onClick="acceptWord" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please type a(n) ..." />
+</LinearLayout>

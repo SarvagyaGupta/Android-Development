@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mad Libs</string>
+    <string name="intro">Welcome to the MadLibs! I will ask you to fill in\nwords to complete a story. You can\'t see the\nwhole story until you fill in all the missing words.\nClick below to get started ...</string>
+    <string-array name="stories">
+        <item>clothing</item>
+        <item>dance</item>
+        <item>marty</item>
+        <item>tarzan</item>
+        <item>university</item>
+        <item>wannabe</item>
+    </string-array>
+</resources>
