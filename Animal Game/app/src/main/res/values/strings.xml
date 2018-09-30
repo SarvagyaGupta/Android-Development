@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Animal Game</string>
+    <string name="intro_text">Think of an animal, then press Play. I will try to guess it using Yes/No questions! The more you play, the smarter I get.</string>
+    <string name="new_word_text">So my guess was incorrect. Make me smarter so that I can beat you next time!</string>
+    <string name="question">Question to \ndifferentiate the word:</string>
+    <string name="word">The word you are thinking \nof:</string>
+    <string name="answer">Answer to your question:</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">Serpent</string>
+     <string name="game_name">Jeu de serpent!</string>
+     <string name="language">Maintenant pris en charge dans plusieurs langues!</string>
+     <string name="snake_logo">Logo de serpent</string>
+     <string name="play">Jouer</string>
+     <string name="exit">Sortie</string>
+     <string name="turn_left_button">Tournez le bouton gauche</string>
+     <string name="turn_right_button">Bouton tourner à droite</string>
+     <string name="high_score">Score élevé: %1$d</string>
+     <string name="score">Score: %1$d</string>
+     <string name="game_over">Fin du jeu!!</string>
+</resources>

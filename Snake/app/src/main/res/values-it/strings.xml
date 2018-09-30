@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">serpente</string>
+     <string name="game_name">Gioco del serpente!</string>
+     <string name="language">Ora supportato in più lingue!</string>
+     <string name="snake_logo">Logo serpente</string>
+     <string name="play">Giocare</string>
+     <string name="exit">Uscita</string>
+     <string name="turn_left_button">Ruota il pulsante sinistro</string>
+     <string name="turn_right_button">Ruota il pulsante destro</string>
+     <string name="high_score">Punteggio alto: %1$d</string>
+     <string name="score">Punteggio: %1$d</string>
+     <string name="game_over">Gioco finito!!</string>
+</resources>

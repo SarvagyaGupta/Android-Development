@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+    <array name="images">
+        <item>@drawable/skateboard</item>
+        <item>@drawable/truck</item>
+        <item>@drawable/rocket</item>
+        <item>@drawable/airplane</item>
+        <item>@drawable/bike</item>
+        <item>@drawable/broom</item>
+        <item>@drawable/car</item>
+        <item>@drawable/train</item>
+    </array>
+
+    <array name="buttons">
+        <item>@id/b1</item>
+        <item>@id/b2</item>
+        <item>@id/b3</item>
+        <item>@id/b4</item>
+        <item>@id/b5</item>
+        <item>@id/b6</item>
+        <item>@id/b7</item>
+        <item>@id/b8</item>
+        <item>@id/b9</item>
+        <item>@id/b10</item>
+        <item>@id/b11</item>
+        <item>@id/b12</item>
+        <item>@id/b13</item>
+        <item>@id/b14</item>
+        <item>@id/b15</item>
+        <item>@id/b16</item>
+    </array>
+</resources>

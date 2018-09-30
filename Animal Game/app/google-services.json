@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "62855324390",
+    "firebase_url": "https://animal-game-sarvagya.firebaseio.com",
+    "project_id": "animal-game-sarvagya",
+    "storage_bucket": "animal-game-sarvagya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62855324390:android:35ae796665798e0b",
+        "android_client_info": {
+          "package_name": "edu.stanford.cse193a.animalgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62855324390-bjiudoulgfsksf6a97k8n92irlg3hcdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.stanford.cse193a.animalgame",
+            "certificate_hash": "10d16b00f862fad8ad183b74bd6e5c74f10a5e28"
+          }
+        },
+        {
+          "client_id": "62855324390-crap5v736aep4g70iubue2dckhhj2n09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK6_6vITADcbHqt5egNZAHNIcwwEcJ-U8"
+        },
+        {
+          "current_key": "AIzaSyAK6_6vITADcbHqt5egNZAHNIcwwEcJ-U8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62855324390-crap5v736aep4g70iubue2dckhhj2n09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

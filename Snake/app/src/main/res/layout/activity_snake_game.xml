@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".SnakeGameActivity">
+
+    <edu.stanford.cse193a.snake.SnakeCanvas
+        android:id="@+id/snake_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center">
+
+        <ImageButton
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rotateleft"
+            android:contentDescription="@string/turn_left_button"
+            android:layout_weight="1"
+            android:onClick="turnLeftClick" />
+
+        <ImageButton
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rotateright"
+            android:contentDescription="@string/turn_right_button"
+            android:layout_weight="1"
+            android:onClick="turnRightClick" />
+    </LinearLayout>
+</LinearLayout>

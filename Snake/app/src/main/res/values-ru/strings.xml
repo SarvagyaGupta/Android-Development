@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">змея</string>
+    <string name="game_name">игра змей!</string>
+    <string name="language">Теперь поддерживается на нескольких языках!</string>
+    <string name="snake_logo">Логотип Snake</string>
+    <string name="play">играть</string>
+    <string name="exit">Выход</string>
+    <string name="turn_left_button">Повернуть левую кнопку</string>
+    <string name="turn_right_button">Повернуть правую кнопку</string>
+    <string name="high_score">Высокий балл: %1$d</string>
+    <string name="score">Оценка: %1$d</string>
+    <string name="game_over">игра закончена!!</string>
+</resources>

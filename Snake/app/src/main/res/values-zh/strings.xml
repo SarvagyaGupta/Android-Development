@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">蛇</string>
+     <string name="game_name">蛇遊戲</string>
+     <string name="language">現在支持多種語言！</string>
+     <string name="snake_logo">蛇徽標</string>
+     <string name="play">播放</string>
+     <string name="exit">退出</string>
+     <string name="turn_left_button">左轉按鈕</string>
+     <string name="turn_right_button">向右轉按鈕</string>
+     <string name="high_score">高分：%1$d</string>
+     <string name="score">得分：%1$d</string>
+     <string name="game_over">遊戲結束！！</string>
+</resources>

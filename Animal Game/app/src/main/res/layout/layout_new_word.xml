@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="64sp"
+        android:src="@drawable/new_word"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="New Word Picture"
+        android:layout_marginBottom="5sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/new_word_text"
+        android:textAlignment="center"
+        android:layout_marginBottom="5sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/word"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/user_word"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:hint="Enter the word here."
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/question"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/user_question"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:hint="Enter the question here."
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:orientation="horizontal"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp">
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/answer"
+            android:textAlignment="center" />
+
+        <RadioGroup
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/yes_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="25sp"
+                android:text="Yes"
+                android:textAlignment="center"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/no_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="25sp"
+                android:text="No"
+                android:textAlignment="center" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

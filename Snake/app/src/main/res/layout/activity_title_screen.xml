@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    tools:context=".TitleScreenActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/snakelogo"
+        android:contentDescription="@string/snake_logo"
+        android:layout_marginBottom="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10sp" />
+
+    <TextView
+        android:id="@+id/high_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score: 0"
+        android:textSize="18sp"
+        android:layout_marginBottom="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:buttonBarStyle">
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/play"
+            android:textSize="18sp"
+            android:onClick="playGame"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp"
+            style="?android:buttonBarButtonStyle" />
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/exit"
+            android:textSize="18sp"
+            android:onClick="exitGame"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp"
+            style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

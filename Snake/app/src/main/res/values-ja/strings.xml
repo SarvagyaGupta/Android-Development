@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">スネーク</string>
+     <string name="game_name">スネークゲーム！</string>
+     <string name="language">複数の言語でサポートされました！</string>
+     <string name="snake_logo">スネークロゴ</string>
+     <string name="play">再生</string>
+     <string name="exit">終了</string>
+     <string name="turn_left_button">左ボタンを押す</string>
+     <string name="turn_right_button">右ボタンを押す</string>
+     <string name="high_score">高い得点：%1$d</string>
+     <string name="score">スコア：%1$d</string>
+     <string name="game_over">ゲームオーバー!!</string>
+</resources>
